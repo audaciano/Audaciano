@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Sidenav a {
+    position: absolute;
+    left: -84px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#Sidenav a:hover {
+    left: 0;
+}
+
+#filmes {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#series {
+    top: 80px;
+    background-color: #2196F3;
+}
+
+#anime {
+    top: 140px;
+    background-color: #f44336;
+}
+
+#genero {
+    top: 200px;
+    background-color: rgb(216, 206, 63)
+}
+
+#sobre {
+    top: 260px;
+    background-color: rgb(175, 69, 207)
+}
+
+#suporte {
+    top: 320px;
+    background-color: #555
+}
